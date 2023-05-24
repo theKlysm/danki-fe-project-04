@@ -67,7 +67,7 @@ section.servicos > .container{
 }
 
 section.servicos >.container .box-servico{
-    background-image: url('../img/icone-dente.png');
+    background-image: url('../img/icone_dente.png');
     background-size: 18px 18px;
     background-position: center calc(100% - 5px);
     background-repeat: no-repeat;
@@ -106,8 +106,12 @@ section.servicos > .container .box-servico:nth-of-type(3){
     background-color: #576975;
 }
 
+section.perfil-container .container{
+    max-width: 800px;
+}
+
 section.perfil-container .perfil-wraper{
-    padding-top: 40%;
+    padding-top: 60%;
     position: relative;
 }
 
@@ -116,6 +120,19 @@ section.perfil-container .perfil-wraper2{
     left: 0;
     top: 0;
     display: flex;
+    align-items: center;
     width: 100%;
-    height 100%;
+    height: 100%;
+}
+
+section.perfil-container .img-perfil{
+    width: 40%;
+    height: 100%;
+    background-image: url('../img/img_perfil.png');
+    background-size: 100% 100%;
+}
+
+section.perfil-container .texto-perfil{
+    width: 60%;
+    padding: 0 30px;
 }
