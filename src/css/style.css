@@ -106,6 +106,10 @@ section.servicos > .container .box-servico:nth-of-type(3){
     background-color: #576975;
 }
 
+section.perfil-container{
+    padding: 40px 0;
+}
+
 section.perfil-container .container{
     max-width: 800px;
 }
@@ -135,4 +139,13 @@ section.perfil-container .img-perfil{
 section.perfil-container .texto-perfil{
     width: 60%;
     padding: 0 30px;
+}
+
+section.perfil-container .texto-perfil h2{
+    color: #688293;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    section.servicos >.
 }
