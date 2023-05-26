@@ -169,6 +169,16 @@ section.perfil-container .texto-perfil h2{
         padding: 30px 2%;
     }
 
+    section.perfil-container .perfil-wraper2{
+        text-align: center;
+        display: inline-block;
+    }
 
+    section.perfil-container .img-perfil{
+        width: 80%;
+        padding-top: 100%;
+        display: inline-block;
+        height: auto;
 
+    }
 }
