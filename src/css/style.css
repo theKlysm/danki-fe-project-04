@@ -147,5 +147,28 @@ section.perfil-container .texto-perfil h2{
 }
 
 @media screen and (max-width: 768px){
-    section.servicos >.
+    section.servicos > .container{
+        flex-direction: column;
+    }
+
+    section.servicos > .container .box-servico:nth-of-type(1){
+        width: 90%;
+        max-width: 350px;
+        padding: 30px 2%;
+    }
+
+    section.servicos > .container .box-servico:nth-of-type(2){
+        width: 94%;
+        max-width: 380px;
+        padding: 40px 2%;
+    }
+
+    section.servicos > .container .box-servico:nth-of-type(3){
+        width: 90%;
+        max-width: 350px;
+        padding: 30px 2%;
+    }
+
+
+
 }
