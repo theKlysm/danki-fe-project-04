@@ -175,10 +175,16 @@ section.perfil-container .texto-perfil h2{
     }
 
     section.perfil-container .img-perfil{
-        width: 80%;
-        padding-top: 100%;
+        width: 50%;
+        padding-top: 70%;
         display: inline-block;
         height: auto;
+    }
 
+    section.perfil-container .texto-perfil{
+        display: inline-block;
+        text-align: justify;
+        width: 100%;
+        padding: 0 30px;
     }
 }
