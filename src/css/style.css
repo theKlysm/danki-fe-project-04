@@ -24,6 +24,7 @@ header .logo img{
 }
 
 header nav.menu-mobile{
+    float: right;
     display: none;
 }
 
@@ -154,6 +155,10 @@ section.perfil-container .texto-perfil h2{
 
     nav.menu-desktop{
         display: none;
+    }
+
+    nav.menu-mobile{
+        display: block;
     }
 
     section.servicos > .container{
