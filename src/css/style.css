@@ -23,6 +23,10 @@ header .logo img{
     width: 236px;
 }
 
+header nav.menu-mobile{
+    display: none;
+}
+
 header nav.menu-desktop{
     float: right;
 }
@@ -147,6 +151,11 @@ section.perfil-container .texto-perfil h2{
 }
 
 @media screen and (max-width: 768px){
+
+    nav.menu-desktop{
+        display: none;
+    }
+
     section.servicos > .container{
         flex-direction: column;
     }
