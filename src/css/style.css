@@ -23,15 +23,15 @@ header .logo img{
     width: 236px;
 }
 
-header nav{
+header nav.menu-desktop{
     float: right;
 }
 
-header nav ul{
+header nav.menu-desktop ul{
     padding: 8px 0;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
     float: left;
     font-size: 14px;
     padding: 0 20px;
@@ -191,7 +191,7 @@ section.perfil-container .texto-perfil h2{
 
 @media screen and (max-width: 580px){
     section.perfil-container .img-perfil{
-        width: 0%;
+        width: 80%;
         padding-top: 110%;
     }
 }
