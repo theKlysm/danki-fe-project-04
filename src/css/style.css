@@ -188,3 +188,10 @@ section.perfil-container .texto-perfil h2{
         padding: 0 30px;
     }
 }
+
+@media screen and (max-width: 580px){
+    section.perfil-container .img-perfil{
+        width: 0%;
+        padding-top: 110%;
+    }
+}
