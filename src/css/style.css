@@ -183,7 +183,13 @@ section.perfil-container .texto-perfil h2{
         padding: 30px 2%;
     }
 
+    section.perfil-container .perfil-wraper{
+        padding-top: 0;
+    }
+
     section.perfil-container .perfil-wraper2{
+        height: auto;
+        position: static;
         text-align: center;
         display: inline-block;
     }
