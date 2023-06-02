@@ -27,22 +27,30 @@ header nav.menu-mobile{
     float: right;
     width: 28px;
     height: 28px;
+    margin-top: 7px;
+    cursor: pointer;
     background-image: url('../img/menu-mobile.png');
     background-size: 100% 100%;
     display: none;
 }
 
-header nav.menu-mobile{
+header nav.menu-mobile ul{
+    display: none;
+    z-index: 999;
     text-align: center;
     width: 100%;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 60;
     background-color: white;
 }
 
+header nav.menu-mobile ul li{
+    text-transform: uppercase;
+}
+
 header nav.menu-mobile li{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header nav.menu-desktop{
