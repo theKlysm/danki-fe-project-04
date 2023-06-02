@@ -25,6 +25,10 @@ header .logo img{
 
 header nav.menu-mobile{
     float: right;
+    width: 28px;
+    height: 28px;
+    background-image: url('../img/menu-mobile.png');
+    background-size: 100% 100%;
     display: none;
 }
 
