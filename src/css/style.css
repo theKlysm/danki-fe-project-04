@@ -32,6 +32,19 @@ header nav.menu-mobile{
     display: none;
 }
 
+header nav.menu-mobile{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+header nav.menu-mobile li{
+    padding: 20px 0;
+}
+
 header nav.menu-desktop{
     float: right;
 }
