@@ -206,6 +206,40 @@ section.videos iframe{
     height: 100%;
 }
 
+section.tratamentos{
+    padding: 70px 0;
+}
+
+section.tratamentos h2{
+    color: #688293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.tratamentos .container{
+    padding: 35px 0;
+}
+
+section.tratamentos .tratamento-container{
+    float: left;
+    width: 33.3%;
+}
+
+section.tratamentos .tratamento-container .tratamento-single{
+    padding: 20px;
+}
+
+section.tratamentos .tratamento-container .tratamento-single h2{
+    font-size: 18px;
+    color: #737373;
+}
+
+section.tratamentos .tratamento-container .tratamento-single p{
+    font-size: 13px;
+    padding: 10px 0;
+    color: #b4b4b4;
+}
+
 @media screen and (max-width: 768px){
 
     nav.menu-desktop{
