@@ -262,11 +262,28 @@ section.videos iframe{
         width: 100%;
         padding: 0 30px;
     }
+
+    section.videos {
+        text-align: center;
+    }
+
+    section.videos .box-video{
+        float: none;
+        width: 70%;
+        display: inline-block;
+        border: 5px solid white;
+        padding-top: calc(70% * 0.6);
+    }
 }
 
 @media screen and (max-width: 580px){
     section.perfil-container .img-perfil{
         width: 80%;
         padding-top: 110%;
+    }
+
+    section.videos .box-video{
+        width: 100%;
+        padding-top: calc(100% * 0.6);
     }
 }
