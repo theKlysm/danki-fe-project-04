@@ -278,6 +278,22 @@ section.depoimento .depoimento-single .nome-depoimento span{
     vertical-align: top;
 }
 
+section.social .instagram-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: #98a5ae;
+}
+
+section.social .instagram-chamada p{
+    line-height: 23px;
+    color: white;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+
 @media screen and (max-width: 768px){
 
     nav.menu-desktop{
