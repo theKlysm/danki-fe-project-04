@@ -303,8 +303,8 @@ section.mosaico-social .img-mosaico-single-social{
 
 @media screen and (max-width: 1024px){
     section.mosaico-social .img-mosaico-single-social{
-        width: calc(100%/9);
-        padding-top: calc(100%/9);
+        width: calc(100%/6);
+        padding-top: calc(100%/6);
     }
 
     section.mosaico-social > div:nth-of-type(1n+7){
@@ -382,11 +382,11 @@ section.mosaico-social .img-mosaico-single-social{
     }
 
     section.mosaico-social .img-mosaico-single-social{
-        width: calc(100%/9);
-        padding-top: calc(100%/9);
+        width: calc(100%/3);
+        padding-top: calc(100%/3);
     }
     
-    section.mosaico-social > div:nth-of-type(1n+7){
+    section.mosaico-social > div:nth-of-type(1n+4){
         display: none;
     }
 }
