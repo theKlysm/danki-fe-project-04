@@ -310,7 +310,6 @@ section.mosaico-social .img-mosaico-single-social{
     section.mosaico-social > div:nth-of-type(1n+7){
         display: none;
     }
-
 }
 
 @media screen and (max-width: 768px){
@@ -380,6 +379,15 @@ section.mosaico-social .img-mosaico-single-social{
         display: inline-block;
         border: 5px solid white;
         padding-top: calc(70% * 0.6);
+    }
+
+    section.mosaico-social .img-mosaico-single-social{
+        width: calc(100%/9);
+        padding-top: calc(100%/9);
+    }
+    
+    section.mosaico-social > div:nth-of-type(1n+7){
+        display: none;
     }
 }
 
