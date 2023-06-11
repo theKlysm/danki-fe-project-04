@@ -364,8 +364,19 @@ section.contato form{
     width: 100%;
     padding: 8px;
     height: 121px;
+    margin-top: 8px;
     resize: none;
     border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit]{
+    width: 100px;
+    height: 35px;
+    display: inline-block;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px){
