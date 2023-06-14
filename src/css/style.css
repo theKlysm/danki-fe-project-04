@@ -83,6 +83,8 @@ header ul a{
 
 .img-mosaico-single{
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-top: 100%;
     background-color: #ccc;
     border: 5px solid white;
@@ -90,6 +92,7 @@ header ul a{
 }
 /****/
 
+/*servicos*/
 section.servicos > .container{
     max-width: 800px;
     display: flex;
@@ -138,13 +141,15 @@ section.servicos > .container .box-servico:nth-of-type(3){
     padding: 50px 2%;
     background-color: #576975;
 }
+/******/
 
+/*perfil*/
 section.perfil-container{
     padding: 40px 0;
 }
 
 section.perfil-container .container{
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 section.perfil-container .perfil-wraper{
@@ -157,7 +162,6 @@ section.perfil-container .perfil-wraper2{
     left: 0;
     top: 0;
     display: flex;
-    align-items: center;
     width: 100%;
     height: 100%;
 }
@@ -171,7 +175,7 @@ section.perfil-container .img-perfil{
 
 section.perfil-container .texto-perfil{
     width: 60%;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 
 section.perfil-container .texto-perfil h2{
@@ -180,13 +184,16 @@ section.perfil-container .texto-perfil h2{
 }
 
 section.perfil-container .texto-perfil p{
-    color: #688293;
-    font-size: 14px;
+    color: rgb(190,190,190);
+    font-size: 15px;
+    line-height: 25px;
     margin-top: 8px;
 }
+/*****/
 
+/* videos */
 section.videos{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 section.videos .box-video{
@@ -205,7 +212,9 @@ section.videos iframe{
     width: 100%;
     height: 100%;
 }
+/****/
 
+/*tratamentos*/
 section.tratamentos{
     padding: 70px 0;
 }
@@ -239,7 +248,9 @@ section.tratamentos .tratamento-container .tratamento-single p{
     padding: 10px 0;
     color: #b4b4b4;
 }
+/*****/
 
+/*depoimentos*/
 section.depoimentos h2{
     color: #688293;
     text-align: center;
@@ -277,7 +288,9 @@ section.depoimento .depoimento-single .nome-depoimento span{
     display: inline-block;
     vertical-align: top;
 }
+/******/
 
+/*social*/
 section.social .instagram-chamada{
     float: left;
     width: 100%;
@@ -293,11 +306,13 @@ section.social .instagram-chamada p{
     font-size: 13px;
 }
 
-section.mosaico-social .img-mosaico-single-social{
+section.social .img-mosaico-single-social{
     float: left;
     width: calc(100%/9);
+    background-repeat: no-repeat;
     padding-top: calc(100%/9);
-    background-color: blue;
+    background-size: 100% 100%;
+    background-color: gray;
     border: 6px solid white;
 }
 
@@ -315,9 +330,12 @@ section.social .facebook-chamada p{
     padding: 10px 0;
     font-size: 13px;
 }
+/******/
 
+/* contato */
 section.contato{
     padding: 60px 2%;
+    background-color: rgb(240, 240, 240);
 }
 
 section.contato > h2{
@@ -378,7 +396,9 @@ section.contato form{
     color: white;
     cursor: pointer;
 }
+/*****/
 
+/*rodape*/
 footer{
     padding: 40px 2%;
     background-color: #688293;
@@ -404,6 +424,7 @@ footer .footer-block{
     margin-top: 8px;
     font-size: 14px;
 }
+/******/
 
 @media screen and (max-width: 1024px){
     section.mosaico-social .img-mosaico-single-social{
