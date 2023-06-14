@@ -380,9 +380,9 @@ section.contato form{
 
 .form-wraper textarea{
     width: 100%;
+    margin-top: 8px;
     padding: 8px;
     height: 121px;
-    margin-top: 8px;
     resize: none;
     border: 1px solid #dadada;
 }
@@ -427,12 +427,12 @@ footer .footer-block{
 /******/
 
 @media screen and (max-width: 1024px){
-    section.mosaico-social .img-mosaico-single-social{
+    section.social .img-mosaico-single-social{
         width: calc(100%/6);
         padding-top: calc(100%/6);
     }
 
-    section.mosaico-social > div:nth-of-type(1n+7){
+    section.social > div:nth-of-type(1n+7){
         display: none;
     }
 }
@@ -505,12 +505,12 @@ footer .footer-block{
         padding-top: calc(70% * 0.6);
     }
 
-    section.mosaico-social .img-mosaico-single-social{
+    section.social .img-mosaico-single-social{
         width: calc(100%/3);
         padding-top: calc(100%/3);
     }
     
-    section.mosaico-social > div:nth-of-type(1n+4){
+    section.social > div:nth-of-type(1n+4){
         display: none;
     }
 
